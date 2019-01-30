@@ -1,0 +1,61 @@
+a = {
+  "brand" : "ford",
+  "model": "mustand",
+  "year": 1964
+  }
+  
+  print(a)
+  
+  # accessing  item
+  # You can access the items of a dictionary by referring to its key name, inside square brackets:
+
+x = a["model"]
+
+# get() method can also be used to access item 
+
+x= a.get("model") # by using this method if there is no  item  exsist its will not through error  it shows  none
+
+# change values
+
+a["year"] = 2018
+
+# dictionary length
+
+print(len(a))
+
+# adding items 
+
+a["color"] = "red
+
+print(a)
+
+# removing  items
+
+a.pop("model")
+
+print(a)
+
+# del  keyword removes the item with specified key name 
+
+del a["brand"]
+print(a)
+
+# clear () method empties the dictionary
+
+a.clear()
+print(a)
+
+# dict() constructor to make a dictionary
+
+a = dict(brand="ford", model=" mustanf", year=1964)
+
+print(a)
+
+# copy method
+
+x=a.copy()
+
+print(x)
+
+
+
